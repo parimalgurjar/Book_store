@@ -1,0 +1,15 @@
+.cardBody{
+    transition-duration: 0.3s;
+}
+.cardBody:hover{
+    scale: 1.002;
+    box-shadow: 0px 0px 10px rgb(96, 95, 95);
+    
+
+}
+.cardInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
