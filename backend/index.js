@@ -23,9 +23,9 @@ try {
   console.log("Error:", error);
 }
 
-// Enable CORS for specific origin
+
 app.use(cors({
-  origin: 'http://localhost:5173' // Replace with your frontend origin
+  origin: 'http://localhost:5173' 
 }));
 
 // Routes
